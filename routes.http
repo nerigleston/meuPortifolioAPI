@@ -1,0 +1,37 @@
+POST http://localhost:3333/certificados
+Content-Type: application/json
+
+  {
+    "curso": "Análise de Dados em Linguagem R",
+    "instituicao": "ENAP",
+    "materia": "Análise de Dados",
+    "data": "2/10/2023",
+    "certificadoImg": "https://lh3.googleusercontent.com/fife/AK0iWDwBto9o7Rm5n2ndR02sSIXzvPxEYOle2-QbAUYLsxgVnE1N-pd6PUlzqDhU8xtBtdnK99MGRPROrulsYauVlAYnK7vzBrM_U9Wi0zkXjAulUtQkbFLdBi0adKL4GFFW6suOdAmi-ygVcHs-ke-kndqFYfrIeKXkLSbJAscGT9fb8L1YtkvE2SJoWknIR7IvTROkGGwWFKwaymn6stXIDXm9nNM9gKXCa2GIwwkM59waEBj_OTU4BSbwU43irU-ZKNrZIrgVPGXnCWiugdh4_uoUnIA0_Bc8cz4-UpqANQSkSGYD7YxnCLkdkEkxBqjhsoZAdT2RyU_fGFk4ZQQ_-3XodrvZ6acShZkU-mf6ce1ueTN26sxgxrXgsVZMxwugsw6if9PckudXZr4IT3DW1FbIO1U0og3_lCiVrLRP0YoHOcGpc-aanpkdtPaB37EB7pG6TRXEJaw_pGwxyf6HzUVIIUQ_9zWGs6nfjLkNY9RW1j0Gg9rkwPZmavlMMugp7l1kyBHxDeQ7P8xsdJ_ZJpDrNx5P57Ywdbtv361HVWFo6Df-vd24Dn4Pxjc8cj86GxrfsreH0t_ylMwQV4uIpCqVCDt7Fe3sbhYMGWWk43TibmgXC8k0HJ3EU2RiG596jvPjWGfauzJTcls96asx_EJfYlaq1cZpRrs5bPk5RSd_FMJ8El25Vb9WGlv-fuFszueTLjmTHligwXmr9z3L0zpFNDcldP1xZF1_wE5aut0UtiE1xQbFKFf8qx4HWvllLzc7OifZqWXv2s3EUAp2gsUkyNqUb3AdZ6dhNrOFcN8_dMxpK6u-W-Vyz9oZY2LPIMwELosQWtdMQufiwLIEarccz5blUMRBu7UIGBYaUcrF1a4AtX6cWEmgniwiCvPCy7FY2oDKXShl8uK0kIdI5fdDcHLEQxJsqM8qeXqG1pUEL8b7vXGP54HnTu5yxFZJ_Io7mkBh8GEJA_09LMv_EVcXqYVG2ADbryoBl11kd1qRfU2kwDQD-sNEG4SU6C31wwRhF6avpHScKBxerfRhRnwyaA1vBV0BBF7LO8TxFlbxx661GPcEXz98LSLgQgQ2lLgMoaUBrBTqjDb7MrmM_IVCs9KklaaDBsKM7z5FTVpX65bY8IhsU8qfkbZdbwbru68I1eZ7MewtFApKOOIyXCqK_wJ4rJts5MFgU9a4-pZCssd_z_g3vS4MJOtN9zSX-zvq10XyPofL44Jsg2wgX0_jHI6m8wKUKKctMoV_vmAWvW44hsXewvlWWP6Al9SAclGXC9xMMCpa8djeBNOr_h2u4YLNvXUI0uHa5tezFMk9AYF8RY6G2M9OLjOpUKPgXH02WLaj12vOV7jiqPGY3VJpSDNiKE3jc0SoliISEbqcaEqfBl5vpAeDHzLfvpPB8PBYF3r4Y4xDPb5u-wfFdqfM1SnZUkx5S22Ay8bQ2xAVNXriCJ390DzF6qn8dddWH_OlF8ICQCuXptfD_5XciFVXIezcGbZIzxy875HydKZB515NebAPhi0uD4ujWMz0sfB3Daw9OfWkMmBRn3bS=w1280-h923"
+  }
+
+
+###
+
+GET http://localhost:3333/certificados
+
+###
+
+PUT http://localhost:3333/certificados/
+Content-Type: application/json
+
+# {
+#   "title": "Video 02",
+#   "description": "Esse é o video 01",
+#   "duration": 360
+# }
+
+###
+
+DELETE http://localhost:3333/certificados/
+Content-Type: application/json
+
+# {
+#     "title": "Video 01",
+#     "description": "Esse é o video 01",
+#     "duration": 360
+# }
