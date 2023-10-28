@@ -8,7 +8,7 @@ export class DatabasePostgres {
     let certificados
 
     if (search) {
-      certificados = await sql`select * from certificados where curso ilike ${'%' + search + '%'}`
+      certificados = await sql`select * from certificados where nome ilike ${'%' + search + '%'}`
     } else {
       certificados = await sql`select * from certificados`
     }
