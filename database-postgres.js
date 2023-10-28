@@ -18,15 +18,15 @@ export class DatabasePostgres {
   async create(certificado) {
     const certificadoId = randomUUID()
 
-    const {curso, instituicao, data, materia, certificadoImg} = certificado
+    const {curso, instituicao, data, materia, certificadoimg} = certificado
 
-    await sql `insert into certificados(id, curso, instituicao, materia, data, certificadoImg) VALUES (${certificadoId}, ${curso}, ${instituicao}, ${materia},${data}, ${certificadoImg})`
+    await sql `insert into certificados(id, curso, instituicao, materia, data, certificadoimg) VALUES (${certificadoId}, ${curso}, ${instituicao}, ${materia},${data}, ${certificadoimg})`
   }
 
   async update(id, certificado) {
-    const {curso, instituicao, materia, data, certificadoImg} = certificado
+    const {curso, instituicao, materia, data, certificadoimg} = certificado
 
-    await sql `update certificados set curso = ${curso}, instituicao = ${instituicao}, materia = ${materia}, data = ${data}, certificadoImg = ${certificadoImg} WHERE id = ${id}`
+    await sql `update certificados set curso = ${curso}, instituicao = ${instituicao}, materia = ${materia}, data = ${data}, certificadoimg = ${certificadoimg} WHERE id = ${id}`
   }
 
   async delete(id) {
