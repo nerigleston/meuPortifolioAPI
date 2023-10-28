@@ -9,7 +9,7 @@ const database = new DatabasePostgres()
 // Registre o plugin fastify-cors
 server.register(fastifyCors, {
   // Configuração do CORS
-  origin: '*' // Defina as origens permitidas, ou '*' para permitir todas as origens
+  origin: '*'
 })
 
 server.post("/certificados", async (request, reply) => {
